@@ -1,4 +1,5 @@
-*Object Detection and Annotation with YOLOv8*
+#Object Detection and Annotation with YOLOv8
+
 This project demonstrates how to use the Ultralytics YOLOv8 model for object detection in images. The script loads an image, performs object detection, and annotates the detected objects by drawing bounding boxes and labels on the image.
 
 **Requirements**
