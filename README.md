@@ -31,31 +31,17 @@ The image is displayed with annotations using OpenCV's GUI functions.
 1. Loading the Model:
 The YOLOv8 model is loaded using the Ultralytics library:
 
-python
-Copy code
-model = YOLO('yolov8n.pt')  # Load YOLOv8 model
+
 2. Object Detection:
 The model performs detection on the input image:
 
-python
-Copy code
-results = model(image)
 3. Image Annotation:
 The annotate_image function creates a copy of the input image and draws bounding boxes and labels for each detected object:
 
-python
-Copy code
-def annotate_image(image, results):
-    # Annotating the image
-    ...
+
 4. Displaying the Image:
 Use OpenCV to display the annotated image in a window:
 
-python
-Copy code
-cv2.imshow('Annotated Image', annotated_image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
 📷 Example Output
 
 By following these instructions, you will be able to load an image, perform object detection, and visualize the results with annotations.
