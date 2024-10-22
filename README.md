@@ -13,6 +13,7 @@ Python 3.x
 OpenCV
 NumPy
 Ultralytics (pip install ultralytics)
+
 📂 Model and Image Setup
 Download the YOLOv8 model: Ensure you have the yolov8n.pt model file available in your working directory. This is the model that performs object detection.
 
