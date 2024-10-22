@@ -5,6 +5,7 @@ This project demonstrates how to use the Ultralytics YOLOv8 model for object det
 Object detection using the powerful YOLOv8 model.
 Visualize detected objects with bounding boxes and labels.
 Simple, clear code with annotations displayed using OpenCV.
+
 🛠 Requirements
 Ensure you have the following installed before running the script:
 
