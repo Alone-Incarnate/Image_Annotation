@@ -22,7 +22,7 @@ def annotate_image(original_image, detections):
     return annotated_image
 
 # Load an image
-image_path = "2.jpg"
+image_path = "Your_iamge_path.jpg"
 image = cv2.imread(image_path)
 
 # Perform object detection
