@@ -1,49 +1,30 @@
-Object Detection and Annotation with YOLOv8
-This project demonstrates how to use the Ultralytics YOLOv8 model for object detection in images. The script loads an image, performs object detection, and annotates the detected objects by drawing bounding boxes and labels on the image.
+# 🎉 YOLO Object Detection App 🚀
 
-🚀 Features
-Object detection using the powerful YOLOv8 model.
-Visualize detected objects with bounding boxes and labels.
-Simple, clear code with annotations displayed using OpenCV.
+Welcome to the **YOLO Object Detection App**! This application harnesses the power of the YOLO (You Only Look Once) model to perform real-time object detection on images. With a user-friendly interface built using Streamlit, you can easily upload images and visualize detected objects with bounding boxes and labels.
 
-🛠 Requirements
-Ensure you have the following installed before running the script:
+## 📸 Features
 
-Python 3.x
-OpenCV
-NumPy
-Ultralytics (pip install ultralytics)
+- **Upload Images**: Effortlessly upload images in JPG, JPEG, or PNG format.
+- **Real-time Object Detection**: Detect multiple objects in your images using the YOLOv8 model.
+- **Annotated Output**: View annotated images with bounding boxes and class labels for detected objects.
 
-📂 Model and Image Setup
-Download the YOLOv8 model: Ensure you have the yolov8n.pt model file available in your working directory. This is the model that performs object detection.
+## ⚙️ Getting Started
 
-Input Image: Replace "Your_image_path.jpg" with the path to the image you want to process.
+To get started with the app, ensure you have the necessary prerequisites installed. Once everything is set up, you can run the app and start detecting objects in your images!
 
-💡 Understanding the Script
-1. Loading the YOLOv8 Model
-The YOLOv8 model is loaded to facilitate object detection on images.
+## 🖼️ Usage
 
-2. Annotate Image
-A function annotate_image is defined to draw bounding boxes and labels on detected objects within the image.
+1. Click on the button to upload your image.
+2. The app will process the image and display the annotated output with detected objects.
 
-3. Display Results
-The image is displayed with annotations using OpenCV's GUI functions.
+## 🤖 Contributing
 
-📜 Code Explanation
-1. Loading the Model:
-The YOLOv8 model is loaded using the Ultralytics library:
+We welcome contributions! If you have suggestions or improvements, feel free to share your thoughts.
+![image](https://github.com/user-attachments/assets/3083f0ad-a480-40b8-9b9a-a1cd6be0b0bf)
+![image](https://github.com/user-attachments/assets/390b8c15-a5da-4835-ad2a-9e9eb7d120a9)
 
 
-2. Object Detection:
-The model performs detection on the input image:
-
-3. Image Annotation:
-The annotate_image function creates a copy of the input image and draws bounding boxes and labels for each detected object:
 
 
-4. Displaying the Image:
-Use OpenCV to display the annotated image in a window:
 
-📷 Example Output
-
-By following these instructions, you will be able to load an image, perform object detection, and visualize the results with annotations.
+Happy detecting! 🎊
