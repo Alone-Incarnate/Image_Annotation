@@ -1,6 +1,6 @@
-# 🎉 YOLO Object Detection App 🚀
+# 🎉 Image Annotation App 🚀
 
-Welcome to the **YOLO Object Detection App**! This application harnesses the power of the YOLO (You Only Look Once) model to perform real-time object detection on images. With a user-friendly interface built using Streamlit, you can easily upload images and visualize detected objects with bounding boxes and labels.
+Welcome to the **Image Annotation App**! This application harnesses the power of the YOLO (You Only Look Once) model to perform real-time object detection on images. With a user-friendly interface built using Streamlit, you can easily upload images and visualize detected objects with bounding boxes and labels.
 
 ## 📸 Features
 
